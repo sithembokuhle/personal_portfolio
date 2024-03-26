@@ -7,7 +7,6 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
         <title>Sign Up</title>
         <style>
-    
             * {
                 margin: 0;
                 padding: 0;
@@ -19,9 +18,11 @@
                 background-color: white;
                 color: #ffb6c1;
                 padding: 20px;
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
             }
 
-            
             header {
                 background-color: #ffb6c1;
                 padding: 20px;
@@ -54,13 +55,10 @@
                 transition: color 0.2s;
             }
 
-            
             nav ul li a:hover {
                 color: #ffdab9;
-                
             }
 
-            
             section {
                 padding: 50px 20px;
             }
@@ -70,7 +68,6 @@
                 margin-bottom: 20px;
             }
 
-            
             #signup form {
                 text-align: center;
             }
@@ -92,7 +89,6 @@
             #signup button[type="submit"] {
                 padding: 10px 20px;
                 background-color: #ffb6c1;
-                
                 color: white;
                 border: none;
                 border-radius: 5px;
@@ -102,16 +98,15 @@
 
             #signup button[type="submit"]:hover {
                 background-color: #ffe4e1;
-                
             }
 
-            
             footer {
                 background-color: #ffb6c1;
                 color: white;
                 padding: 20px;
                 text-align: center;
-                margin-top: 50px;
+                margin-top: auto;
+                /* Make footer stick to the bottom */
             }
 
             .social-media a {
@@ -174,6 +169,8 @@
                         alt="Instagram"></a>
                 <a href="https://www.linkedin.com/in/sithembokuhle-khanyile-3b75951aa/"><img src="linkedin-logo.png"
                         alt="LinkedIn"></a>
+                <a href="https://github.com/sithembokuhle"><img src="github-logo.png" alt="GitHub"></a>
+                
             </div>
             <div class="email">
                 <a href="mailto:zizelihlem@gmail.com"><img src="email-logo.png" alt="Email"></a>

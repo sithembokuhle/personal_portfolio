@@ -7,25 +7,29 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
         <title>Skills</title>
         <style>
-            
+            /* Resetting default styles */
             * {
                 margin: 0;
                 padding: 0;
                 box-sizing: border-box;
             }
 
-            
+            /* Body styles */
             body {
                 font-family: 'Roboto', sans-serif;
                 background-color: white;
                 color: #ffb6c1;
-                
+                /* Sweet pink text color */
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
+                /* Ensure body stretches to at least the height of the viewport */
             }
 
-            
+            /* Header styles */
             header {
                 background-color: #ffb6c1;
-                
+                /* Sweet pink background color */
                 padding: 20px;
                 text-align: center;
             }
@@ -34,7 +38,7 @@
                 width: 100px;
                 height: 100px;
                 border-radius: 50%;
-                
+                /* Circular logo */
                 border: 2px solid white;
             }
 
@@ -56,29 +60,33 @@
                 transition: color 0.2s;
             }
 
-            
+            /* Hover effect for navigation links */
             nav ul li a:hover {
                 color: #ffdab9;
-                
+                /* Light pink hover color */
             }
 
-            
+            /* Main content styles */
             section {
                 padding: 50px 20px;
+                flex: 1;
+                /* Make sure content area stretches to fill remaining space */
             }
 
             section h2 {
                 color: #ffb6c1;
-                
+                /* Sweet pink heading color */
             }
 
-            
+            /* Footer styles */
             footer {
                 background-color: #ffb6c1;
-                
+                /* Sweet pink background color */
                 color: white;
                 padding: 20px;
                 text-align: center;
+                margin-top: auto;
+                /* Push footer to the bottom */
             }
 
             .social-media a {
@@ -105,10 +113,10 @@
                 text-decoration: underline;
             }
 
-            
+            /* Skills section styles */
             #skills ul {
                 display: flex;
-                
+                /* Make skills list horizontal */
                 list-style-type: none;
             }
 
@@ -119,22 +127,22 @@
 
             #skills li img {
                 width: 50px;
-                
+                /* Adjust size of skill logos */
                 height: auto;
-                
+                /* Maintain aspect ratio */
                 margin-bottom: 10px;
-                
+                /* Add spacing between logos */
             }
 
             #skills li span {
                 display: block;
-                
+                /* Make alt text display as block */
                 background-color: #ffb6c1;
-                
+                /* Sweet pink background color */
                 padding: 5px 10px;
-                
+                /* Padding for alt text */
                 border-radius: 10px;
-                
+                /* Rounded corners */
             }
         </style>
     </head>
@@ -187,7 +195,6 @@
                         <span>React</span>
                     </a>
                 </li>
-
             </ul>
         </section>
 
@@ -200,6 +207,7 @@
                         alt="Instagram"></a>
                 <a href="https://www.linkedin.com/in/sithembokuhle-khanyile-3b75951aa/"><img src="linkedin-logo.png"
                         alt="LinkedIn"></a>
+                <a href="https://github.com/sithembokuhle"><img src="github-logo.png" alt="GitHub"></a>
             </div>
             <div class="email">
                 <a href="mailto:zizelihlem@gmail.com"><img src="email-logo.png" alt="Email"></a>

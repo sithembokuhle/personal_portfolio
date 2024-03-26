@@ -7,26 +7,25 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
         <title>Sithembokuhle Khanyile - CV</title>
         <style>
-            
+            /* Resetting default styles */
             * {
                 margin: 0;
                 padding: 0;
                 box-sizing: border-box;
             }
 
-            
             body {
                 font-family: 'Roboto', sans-serif;
                 background-color: white;
                 color: #ffb6c1;
-                
                 padding: 20px;
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
             }
 
-            
             header {
                 background-color: #ffb6c1;
-                
                 padding: 20px;
                 text-align: center;
                 margin-bottom: 20px;
@@ -36,7 +35,6 @@
                 width: 100px;
                 height: 100px;
                 border-radius: 50%;
-                
                 border: 2px solid white;
             }
 
@@ -58,24 +56,20 @@
                 transition: color 0.2s;
             }
 
-            
             nav ul li a:hover {
                 color: #ffdab9;
-                
             }
 
-            
             section {
                 padding: 50px 20px;
+                flex: 1;
             }
 
             section h2 {
                 color: #ffb6c1;
-            
                 margin-bottom: 20px;
             }
 
-            
             #cv {
                 text-align: center;
             }
@@ -84,7 +78,6 @@
                 color: white;
                 text-decoration: none;
                 background-color: #ffb6c1;
-                
                 padding: 10px 20px;
                 border-radius: 5px;
                 transition: background-color 0.2s;
@@ -94,17 +87,17 @@
 
             #cv a:hover {
                 background-color: #ffe4e1;
-                
             }
 
-            
             footer {
                 background-color: #ffb6c1;
-                
                 color: white;
                 padding: 20px;
                 text-align: center;
-                margin-top: 50px;
+                margin-top: auto;
+                position: absolute;
+                bottom: 0;
+                width: 100%;
             }
 
             .social-media a {
@@ -164,6 +157,7 @@
                         alt="Instagram"></a>
                 <a href="https://www.linkedin.com/in/sithembokuhle-khanyile-3b75951aa/"><img src="linkedin-logo.png"
                         alt="LinkedIn"></a>
+                <a href="https://github.com/sithembokuhle"><img src="github-logo.png" alt="GitHub"></a>
             </div>
             <div class="email">
                 <a href="mailto:zizelihlem@gmail.com"><img src="email-logo.png" alt="Email"></a>
